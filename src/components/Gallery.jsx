@@ -1,6 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
 import GalleryCard from "./GalleryCard";
-import { motion } from "framer-motion";
 
 export default function Gallery(prop) {
   const photoList = prop.photos.map((photo) => (
