@@ -15,7 +15,7 @@ export default function Gallery(prop) {
   return (
     <Container>
       <div className="p-3">
-        <Row className="row-cols-4 g-3">{photoList}</Row>
+        <Row className="row-cols-2 row-cols-lg-4 g-3">{photoList}</Row>
       </div>
     </Container>
   );
