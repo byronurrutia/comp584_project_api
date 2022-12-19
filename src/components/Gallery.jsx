@@ -15,6 +15,7 @@ export default function Gallery(prop) {
   ));
   return (
     <Container>
+      <h1>Scroll down to active animation and see api pictures</h1>
       <div className="p-3">
         <Row className="row-cols-2 row-cols-lg-4 g-3">{photoList}</Row>
       </div>
