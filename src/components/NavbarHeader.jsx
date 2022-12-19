@@ -4,6 +4,7 @@ export default function NavbarHeader() {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
+        {/* nav comonents */}
         <Navbar.Brand className="me-auto">
           <h3>Image Gallery</h3>
         </Navbar.Brand>

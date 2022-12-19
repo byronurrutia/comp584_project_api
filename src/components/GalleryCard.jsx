@@ -9,6 +9,9 @@ export default function GalleryCard(prop) {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInView, setIsInView] = useState(false);
   return (
+    //a div with a framer motion
+    //card wrapped in the framer motion div
+    //when it is in view, activate the animation
     <motion.div
       initial={false}
       animate={
